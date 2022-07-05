@@ -151,7 +151,7 @@ public abstract class SystemShortcut<T extends Context & ActivityContext> extend
     public static class Uninstall extends SystemShortcut<Launcher> {
 
         public Uninstall(Launcher target, ItemInfo itemInfo) {
-            super(R.drawable.kscope_shortcut_uninstall_ic,
+            super(R.drawable.altho_shortcut_uninstall_ic,
                     R.string.shortcut_uninstall_title, target, itemInfo);
         }
 
